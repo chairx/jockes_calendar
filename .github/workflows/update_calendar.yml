@@ -3,7 +3,7 @@ name: Update ICS File
 on:
   schedule:
     # This cron job runs at 00:00 every day. Adjust as needed.
-    - cron: '0 0 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
